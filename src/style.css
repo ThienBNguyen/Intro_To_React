@@ -1,0 +1,20 @@
+.navbar {
+  width: 100%;
+  background: #61dafb;
+  height: 70px;
+}
+.navbar ul {
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  text-transform: capitalize;
+  list-style: none;
+  align-content: center;
+  justify-items: center;
+}
+body {
+  background: orange;
+}
+#root4 {
+  background: rebeccapurple;
+}
