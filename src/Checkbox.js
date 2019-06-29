@@ -2,7 +2,7 @@ import React from 'react';
 function CheckBox() {
   return (
     <div>
-      <input type="checkbox" />
+      {/* <input type="checkbox" />
       <p>placeholder text here</p>
       <input type="checkbox" />
       <p>placeholder text here</p>
@@ -13,7 +13,7 @@ function CheckBox() {
       <input type="checkbox" />
       <p>placeholder text here</p>
       <input type="checkbox" />
-      <p>placeholder text here</p>
+      <p>placeholder text here</p> */}
     </div>
   );
 }

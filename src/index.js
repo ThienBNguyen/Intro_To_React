@@ -4,6 +4,17 @@ import ReactDOM from 'react-dom';
 import Myinfo from './Myinfo';
 import '../src/style.css';
 import Reactclock from './Reactclock';
+import Contact from './ContactCard';
+import Joke from './Practice';
+import App from './ProductRender';
+import MainTodo from './MainTodo';
+import Intro from './Intro';
+import State from './State';
+import HandlingEvent from './HandlingEvent';
+import ChangeState from './ChangeState';
+import ConditionalRender from './ConditionalRender';
+import Conditional from './Conditional';
+
 // import App from './App';
 // import * as serviceWorker from './serviceWorker';
 
@@ -30,4 +41,13 @@ import Reactclock from './Reactclock';
 //   document.getElementById('root3')
 // );
 ReactDOM.render(<Reactclock />, document.getElementById('root'));
-ReactDOM.render(<Myinfo />, document.getElementById('root4'));
+// ReactDOM.render(<Myinfo />, document.getElementById('root2'));
+// ReactDOM.render(<Joke />, document.getElementById('root2'));
+// ReactDOM.render(<App />, document.getElementById("root2"))
+ReactDOM.render(<MainTodo />, document.getElementById('root2'));
+
+// ReactDOM.render(<Intro />, document.getElementById('root3'));
+// ReactDOM.render(<State />, document.getElementById('root4'));
+// ReactDOM.render(<HandlingEvent />, document.getElementById('root3'));
+ReactDOM.render(<ChangeState />, document.getElementById('root3'));
+ReactDOM.render(<Conditional />, document.getElementById('root4'));

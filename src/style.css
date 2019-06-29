@@ -2,6 +2,8 @@
   width: 100%;
   background: #61dafb;
   height: 70px;
+  padding: 0;
+  margin: 10px;
 }
 .navbar ul {
   height: 70px;
@@ -13,8 +15,53 @@
   justify-items: center;
 }
 body {
-  background: orange;
+  /* background: orange; */
+  padding: 0;
+  margin: 0;
 }
-#root4 {
-  background: rebeccapurple;
+.todo-list {
+  background: white;
+  margin: auto;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid rgb(70, 70, 77);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15), 0 10px 0 -5px #eee,
+    0 10px 1px -4px rgba(0, 0, 0, 0.15), 0 20px 0 -10px #eee,
+    0 20px 1px -9px rgba(0, 0, 0, 0.15);
+  padding: 30px;
+}
+.todo-item {
+  display: flex;
+
+  justify-content: flex-start;
+  align-items: center;
+  padding: 30px 20px 0;
+  width: 70%;
+  border-bottom: 1px solid rgb(44, 40, 40);
+  font-weight: 100;
+  font-size: 15px;
+  color: #333333;
+}
+input[type='checkbox'] {
+  margin-right: 10px;
+}
+.contacts {
+  width: 60px;
+}
+.joke-card {
+  color: green;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 5px auto;
+  border: 1px solid lightblue;
+  padding: 5px;
+  border-radius: 7px;
+  box-shadow: 0px 4px 10px 0px red;
+  text-shadow: 0px 4px 10px 0px red;
+  text-transform: capitalize;
+  
 }
